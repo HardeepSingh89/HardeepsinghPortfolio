@@ -1,0 +1,576 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Default text color */
+    background: linear-gradient(to right,#e48005,#8a3300,#14cc97); /* Gradient from image 1 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header & Navigation Bar */
+header   {
+    padding: 40px 5;
+    position: sticky;
+    top: 0;
+    background-color: #d7458c;
+overflow: hidden;
+    
+
+}
+ 
+
+
+
+.left{
+    font-size: 24px;
+    font-style:italic;
+    font-family:cooper bt bold;
+    font-weight:bold;
+    color: #5ce1ec; /* A blue color from the image */
+    line-height: 1.2;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100px;
+    background:rgba(207, 105, 105, 0.796);
+  
+  }
+
+
+
+nav ul{
+display: flex;
+justify-content: center;
+}
+
+
+nav ul li {
+    list-style:none;
+    margin:0 23px;
+    color:#ffde59;
+    font-style: italic;
+    font-weight: bold;
+    font-family: canva sans;
+    font-size: 21px;
+
+}
+ 
+.firstsection{
+display: flex;
+justify-content:space-around;
+margin: 125px 0;
+
+}
+
+.firstsection>div{
+  width: 30%;
+  
+}
+
+.leftsection{
+    font-size:3em;
+    margin:40px 0;
+    color:#c1ff72;
+    font-style:italic;
+    font-family:cooper bt bold;
+    font-weight:bold;
+    font-size: 50px;
+
+    
+}
+
+.hero-image img {
+    border-radius: 50%; /* For the circular image in the example */
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+ nav ul li a{
+    text-decoration: none;
+     color:#ffde59;
+     background: #004c99;
+     border-radius: 50px;
+     padding: 6px;
+
+ }
+ nav ul li a:hover{  
+   color:lavender;
+ }
+
+ .color{
+    color:rgb(73, 243, 197);
+    
+ }
+
+
+
+hr{
+    border:0;
+    background:#8ce115;
+    height: 2px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.secondsection,h2{
+   text-align: center;
+    background-color: rgb(47, 98, 217);
+    max-width: 400px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 50px;
+   padding:5px;
+   justify-content: center;
+   
+    
+}
+ 
+.secondsection{
+    background-color: #970f45;
+    max-width: 75%;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+    
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.skill-column {
+    
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.skill-column p {
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-bottom: 50px;
+    font-weight: bold;
+    gap: 100px;
+}
+
+.skill-column:first-child p {
+    color: #4b89f5;
+}
+
+.skill-column:last-child p {
+    color: #ffcc00;
+}
+
+
+ /* Container for the Contact Section */
+  .contact-card {
+           background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+            overflow: hidden; /* Ensures the header background is contained */
+             margin-right: auto;
+              margin-right: auto;              
+              justify-content: center;
+               border-radius: 20px;
+                max-width: 600px;
+               padding:50px;
+               height: 300px;
+               text-align: center;
+                margin-left: auto;
+               margin-right: auto;
+        }
+
+        /* Header Styling */
+        .contact-header {
+            background: linear-gradient(to right, #004c99, #0066cc); /* Blue gradient */
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+        }
+
+        .contact-header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Contact Details Styling */
+        .contact-details {
+            padding: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        
+        /* Last item margin */
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Icon Styling */
+        .contact-item i {
+            font-size: 1.5em;
+            color: #0066cc; /* Icon color (matching the blue theme) */
+            width: 40px;
+            text-align: center;
+            margin-right: 15px;
+        }
+
+        /* Anchor Tag Styling */
+        .contact-item a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-item a:hover {
+            color: #004c99;
+        }
+
+    .container{
+           background-color: rgb(184, 8, 37);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+            overflow: hidden; /* Ensures the header background is contained */
+             margin-right: auto;
+              margin-right: auto;              
+              justify-content: center;
+               border-radius: 20px;
+                max-width: 600px;
+               padding:50px;
+               height: 500px;
+               text-align: center;
+                margin-left: auto;
+               margin-right: auto;
+        }
+
+
+       .container-header{
+         background: linear-gradient(to right, #004c99, #0066cc); /* Blue gradient */
+            color: white;
+            text-align: center;
+            padding: 2px 0;
+            border-radius: 45px;
+            margin-top: 0;
+
+
+    }
+     .container-header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color:white;
+            font-family:cooper bt bold;
+            font-style: italic;
+           
+        }
+     
+/* --- Horizontal Card Layout (Flexbox) --- */
+.card-container {
+  display: flex; 
+  gap: 20px; 
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card1 {
+  flex: 1; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #23c692;
+}
+
+.card{
+  flex: 1; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #23c692;
+}
+
+
+
+/* --- NEW: Styling for the Image inside the Card --- */
+.card-image {
+  /* Ensure the image never exceeds the width of its card container */
+  max-width: 95%; 
+  /* Maintain the image's aspect ratio */
+  height: auto;
+  /* Add a little space below the image before the text starts */
+  margin-bottom: 10px; 
+  /* Make the image corners slightly rounded to match the card */
+  border-radius: 4px;
+  /* (Optional) If you want the image to stretch across the full width of the padding: */
+  /* margin-left: -15px; */
+  /* margin-right: -15px; */
+}
+
+/* --- Image and Text Section (Below Cards) --- */
+
+.content-image {
+  width: 100%; 
+  max-width: 400px; 
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.image-text {
+  font-size: 1.em;
+  line-height: 1.6;
+}
+
+.card,ul,li{
+    color:#390a92;
+    text-align: left;
+}
+
+:target{
+    scroll-margin-top:130px;
+}
+
+#element{
+ color:#10db42;
+ font-weight: bold;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.copyright{
+    text-align: center;
+   padding: 25px;
+   color: #6ee7d8;
+   font-weight: bold;
+}
+/* ========================================================= */
+/* --- MEDIA QUERIES FOR RESPONSIVENESS (TABLET/MOBILE) --- */
+/* ========================================================= */
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+    
+    /* --- Navigation --- */
+    nav {
+        flex-direction: row; /* Changed to column for better stacking on tablets */
+            min-height: auto;
+        padding: 10px 20px;
+    }
+
+    .left {
+        margin-bottom: 5px; /* Reduced margin */
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: center;
+        padding: 0; /* Removed default ul padding */
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+        font-size: 18px; /* Slightly larger for tablets */
+        
+    }
+    
+    :target{ /* Adjusted for taller header in tablet view */
+        scroll-margin-top: 180px; 
+    }
+
+
+    /* --- First Section (Hero) --- */
+    .firstsection {
+        flex-direction: column-reverse;
+        text-align: center;
+       
+    }
+
+    .firstsection > div {
+        width: 100%; /* Use full width */
+    }
+
+    .leftsection {
+        font-size: 2.5em; /* Adjusted size */
+        margin: 20px 0;
+    }
+    
+    .hero-image img {
+        width: 300px; /* Slightly smaller for tablets */
+        height: 300px;
+        border: 5px solid #fff;
+    }
+
+    /* --- Skills Section --- */
+    .secondsection {
+        max-width: 90%; /* Increased max-width */
+    }
+
+    .skills-list {
+       
+        align-items: center;
+    }
+
+    .skill-column {
+        width: 100%; /* Use full width inside section */
+        text-align: center;
+    }
+    
+    /* --- Contact Card --- */
+    .contact-card {
+        max-width: 80%;
+        padding: 40px; /* Reduced padding */
+    }
+    
+    .contact-details {
+        text-align: left; /* Align contact items left */
+    }
+
+
+    /* --- About Section (Cards) --- */
+    .card-container {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 80%; /* Consistent max-width */
+    }
+    
+    .card1, .card {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 30px; /* Reduced padding */
+        width: 90%; /* Use 90% width */
+    }
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+    /* --- Body & Base --- */
+    body {
+        font-size: 14px;
+    }
+    
+    /* --- Navigation --- */
+    nav {
+        height: auto; /* Allow height to adjust */
+        padding: 10px 10px;
+    }
+
+    .left {
+        font-size: 1.5em; /* Adjusted size */
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        gap:6px;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+        font-size: 16px;
+        
+    }
+    
+    :target{ /* Adjusted for shorter header in mobile view */
+        scroll-margin-top: 220px; 
+    }
+
+
+    /* --- First Section (Hero) --- */
+    .leftsection {
+        font-size: 2em; /* Adjusted size */
+    }
+    
+    .hero-image img {
+        width: 180px; /* Smaller image */
+        height: 180px;
+    }
+
+    /* --- Skills Section --- */
+    .secondsection h2 {
+        font-size: 1.5em;
+        max-width: 90%;
+    }
+    
+    .skill-column p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* --- Contact Card --- */
+    .contact-card {
+        max-width: 95%; /* Increased max-width */
+        margin: 20px auto;
+        padding: 20px;
+    }
+    
+    .contact-details {
+        padding: 15px; /* Reduced padding */
+    }
+    
+    .contact-item {
+        font-size: 1em;
+        /* Allow text to wrap if the email is long */
+        flex-wrap: wrap; 
+    }
+    
+    .contact-item i {
+        font-size: 1.2em;
+        width: 25px;
+        margin-right: 10px; /* Reduced margin */
+    }
+    
+    /* --- About Card --- */
+    .container {
+         max-width: 95%;
+        padding: 20px;
+        height: auto; 
+    }
+
+    .container-header h1 {
+        font-size: 1.5em;
+    }
+
+    .card-container {
+        max-width: 75%; /* Use full available width */
+        padding: 10px; /* Reduced padding */
+
+        
+    }
+    
+    .card1, .card {
+        padding: 15px;
+
+    }
+
+    
+    
+
+    
+}
