@@ -4,18 +4,19 @@ body {
     margin: 0;
     padding: 0;
     color: white; /* Default text color */
-    background: linear-gradient(to right,#e48005,#8a3300,#14cc97); /* Gradient from image 1 */
+    background-color:rgb(130, 63, 48) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* Header & Navigation Bar */
 header   {
-    padding: 40px 5;
+    padding: 10px 15px;
     position: sticky;
     top: 0;
-    background-color:  #de136e;
+    background-color: #b76b2c;
 overflow: hidden;
+border-radius:50px;
     
 
 }
@@ -28,8 +29,9 @@ overflow: hidden;
     font-style:italic;
     font-family:cooper bt bold;
     font-weight:bold;
-    color: #5ce1ec; /* A blue color from the image */
-     line-height: 1.6;
+    color: #22edff; /* A blue color from the image */
+    line-height: 1.6;
+    border-radius: 2px;
     
 }
 
@@ -40,8 +42,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height:100px;
-    background:rgba(207, 105, 105, 0.796);
-  
+
   }
 
 
@@ -123,6 +124,7 @@ hr{
 
 .secondsection,h2{
    text-align: center;
+   color: #eba50f;
     background-color: rgb(47, 98, 217);
     max-width: 400px;
    margin-right: auto;
@@ -135,7 +137,7 @@ hr{
 }
  
 .secondsection{
-    background-color: #970f45;
+    background-color: #30404e;
     max-width: 75%;
     border-radius: 20px;
     justify-content: center;
@@ -477,7 +479,7 @@ hr{
     /* --- Navigation --- */
     nav {
         height: auto; /* Allow height to adjust */
-        padding: 10px 10px;
+        padding: 10px 1px;
     }
 
     .left {
@@ -573,6 +575,4 @@ hr{
     
 
     
-
 }
-
