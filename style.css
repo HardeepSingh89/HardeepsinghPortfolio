@@ -11,12 +11,14 @@ body {
 
 /* Header & Navigation Bar */
 header   {
-    padding: 10px 15px;
+    padding: 1px; 
     position: sticky;
     top: 0;
     background-color: #b76b2c;
 overflow: hidden;
 border-radius:50px;
+margin:30px;
+
     
 
 }
@@ -41,7 +43,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:100px;
+    height:80px;
 
   }
 
@@ -56,7 +58,6 @@ justify-content: center;
 nav ul li {
     list-style:none;
     margin:0 23px;
-    color:#ffde59;
     font-style: italic;
     font-weight: bold;
     font-family: canva sans;
@@ -97,10 +98,10 @@ margin: 125px 0;
 }
  nav ul li a{
     text-decoration: none;
-     color:#ffde59;
-     background: #004c99;
+     color:#eac945;
+     background: #0a3c6e;
      border-radius: 50px;
-     padding: 6px;
+     padding: 8px;
 
  }
  nav ul li a:hover{  
@@ -120,18 +121,21 @@ hr{
     height: 2px;
     margin: 40px;
     border-radius: 20px;
+    margin:55px;
 }
 
 .secondsection,h2{
    text-align: center;
-   color: #eba50f;
-    background-color: rgb(47, 98, 217);
+   color: #eaba67;
+    background-color: rgb(122, 16, 89);
     max-width: 400px;
    margin-right: auto;
    margin-left: auto;
+   margin-top: 50px;
    border-radius: 50px;
    padding:5px;
    justify-content: center;
+   
    
     
 }
@@ -141,6 +145,7 @@ hr{
     max-width: 75%;
     border-radius: 20px;
     justify-content: center;
+    margin-bottom:20px;
 
 }
     
@@ -163,7 +168,8 @@ hr{
     font-family: 'Comic Sans MS', cursive;
     margin-bottom: 50px;
     font-weight: bold;
-    gap: 100px;
+    gap: px;
+  
 }
 
 .skill-column:first-child p {
@@ -184,7 +190,8 @@ hr{
             width: 90%;
             overflow: hidden; /* Ensures the header background is contained */
              margin-right: auto;
-              margin-right: auto;              
+              margin-right: auto; 
+              margin-top: 100px;             
               justify-content: center;
                border-radius: 20px;
                 max-width: 600px;
@@ -256,7 +263,8 @@ hr{
             width: 90%;
             overflow: hidden; /* Ensures the header background is contained */
              margin-right: auto;
-              margin-right: auto;              
+              margin-right: auto;    
+              margin-top:100px;          
               justify-content: center;
                border-radius: 20px;
                 max-width: 600px;
